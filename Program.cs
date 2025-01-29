@@ -6,7 +6,7 @@
         {
             // Creating an Employee object
             Employee johan = new Employee(1, "Johan", "Wick");// instance created in memory 
-            Employee ahmed = new Employee();// no default constructor if you define your constructor
+          //  Employee ahmed = new Employee();// no default constructor if you define your constructor
 
             johan.DisplayEmployeeDetails();
 
@@ -21,6 +21,10 @@
             johan.UpdateAddress("456 New St", "Los Angeles", "CA", "90001", "USA");
            
             johan.DisplayEmployeeDetails();
+
+            student ayman = new student(24);
+            ayman.Name = "Ayman";
+            Console.WriteLine(  ayman.Age);
         }
     }
 }

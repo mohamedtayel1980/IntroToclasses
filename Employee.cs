@@ -30,12 +30,7 @@
         private int numberOfHoursWorked;
         private double hourlyRate;
 
-        public Employee()
-        {
-            EmployeeID = 0;
-            FirstName = string.Empty;
-            LastName = string.Empty;
-        }
+        
         // Constructor to initialize the employee
         public Employee(int employeeID, string firstName, string lastName, double hourlyRate = defaultHourlyRate)
         {
